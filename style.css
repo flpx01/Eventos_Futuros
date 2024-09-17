@@ -1,0 +1,36 @@
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #6a11cb !important;
+        }
+        .hero {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 100px 0;
+            margin-bottom: 50px;
+        }
+        .card {
+            border: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .card-title {
+            color: #6a11cb;
+        }
+        .btn-primary {
+            background-color: #6a11cb;
+            border-color: #6a11cb;
+        }
+        .btn-primary:hover {
+            background-color: #5a0cb8;
+            border-color: #5a0cb8;
+        }
+        .footer {
+            background-color: #6a11cb;
+            color: white;
+        }
+        
